@@ -1,5 +1,6 @@
 import { useState } from "react"
 import carbonIcon from "../assets/images/icon-carbon-neutral.svg"
+import CartItem from "./CartItem";
 
 export default function Cart() {
   const [cartQuantity, setCartQuantity] = useState(7);
@@ -7,7 +8,7 @@ export default function Cart() {
     <aside>
         <h1>Your Cart ({cartQuantity})</h1>
         <div className="cartItems">
-
+          <CartItem />
         </div>
         <div className="orderTotal">
           <p>Order Total</p>
