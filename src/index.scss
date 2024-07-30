@@ -7,3 +7,26 @@ $rose400: hsl(7, 20%, 60%);
 $rose500: hsl(12, 20%, 44%);
 $rose900: hsl(14, 65%, 9%);
 $productName: 16px;
+
+@font-face {
+  font-family: "RedHat";
+  src: url("./assets/fonts/static/RedHatText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RedHat";
+  src: url("./assets/fonts/static/RedHatText-Bold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RedHat";
+  src: url("./assets/fonts/static/RedHatText-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+} 
+
+* {
+  font-family: 'RedHat', sans-serif ;
+}
