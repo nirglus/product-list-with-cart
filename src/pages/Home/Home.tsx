@@ -2,7 +2,7 @@ import Cart from "../../components/Cart";
 
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       Home
       <Cart />
     </div>

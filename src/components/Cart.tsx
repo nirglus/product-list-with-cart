@@ -1,12 +1,14 @@
 import { useState } from "react"
 import carbonIcon from "../assets/images/icon-carbon-neutral.svg"
 import CartItem from "./CartItem";
+import "./Cart.scss";
 
 export default function Cart() {
   const [cartQuantity, setCartQuantity] = useState(7);
   return (
     <aside>
-        <h1>Your Cart ({cartQuantity})</h1>
+      <div className="cart">
+        <h1 className="yourCart">Your Cart ({cartQuantity})</h1>
         <div className="cartItems">
           <CartItem />
         </div>
@@ -19,6 +21,7 @@ export default function Cart() {
           <span>This is <strong>carbon-neutral</strong> delivery</span>
         </div>
         <button>Confirm Order</button>
+      </div>
     </aside>
   )
 }
