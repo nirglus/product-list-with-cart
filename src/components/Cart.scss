@@ -2,12 +2,22 @@
 aside{
     display: flex;
     flex-direction: column;
-}
-.cart{
-    background-color: #fff;
-    padding: 20px 50px;
-
-    .yourCart{
-        color: $red;
+    .cart{
+        background-color: #fff;
+        padding: 20px 50px;
+        
+    
+        .yourCart{
+            color: $red;
+        }
+    
+        button{
+            width: 90%;
+            background-color: $red;
+            color: #fff;
+            border: 0;
+            height: 40px;
+            border-radius: 20px;
+        }
     }
 }
